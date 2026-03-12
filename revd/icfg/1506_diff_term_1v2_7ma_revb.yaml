@@ -1,0 +1,20 @@
+#
+# Configuration specification YAML file
+#
+# Configuration Description:
+#   LVDS XO w/ no pin control
+#
+
+opn:
+    factory: 1506
+autostart: True
+temp_comp: True
+drvhv:
+    enabled: True
+    div:
+        option0: 1    
+    oe:
+        val: True    
+    mode:
+        option0:
+            diff: DIFF_TERM_1V2_7mA
